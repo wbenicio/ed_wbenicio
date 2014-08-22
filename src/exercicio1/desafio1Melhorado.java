@@ -48,11 +48,11 @@ public class desafio1Melhorado {
         }
         return b;               
     }
-    
+    /*
     public boolean excluir(String value){
         
     }
-    
+    */
     public void exibir(){
         for(int j=0; j<nElement; j++){
             System.out.print(arrayNome[j] + " ");
