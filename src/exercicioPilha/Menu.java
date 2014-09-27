@@ -24,7 +24,7 @@ public class Menu {
                                                                            "*** Menu de Opções ***\n"+
                                                                            "1 - Inserir Mercadoria\n"+ 
                                                                            "2 - Remover Mercadoria\n"+ 
-                                                                           "3 - Verificar Conteiner\n"+ 
+                                                                           "3 - Verificar Mercadorias\n"+ 
                                                                            "4 - Proxima Entrega\n"+
                                                                            "5 - Quantidade de Mercadoria\n"+ 
                                                                            "6 - Sair\n"+
@@ -57,7 +57,7 @@ public class Menu {
                                 JOptionPane.showMessageDialog(null, "Conteiner Cheio !!! ");
                             }
                             else{
-                                JOptionPane.showMessageDialog(null, "Conteiner Cheio mas tambem não está Vazio !!! ");
+                                JOptionPane.showMessageDialog(null, "Conteiner não está Vazio !!! ");
                             }
                         }
                     }
