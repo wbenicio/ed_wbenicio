@@ -139,5 +139,13 @@ public void insert(String n, double a, int id) // insere o elemento no vetor
         }
     }
    //-----------------------------------
+
+    void insert(String nome, String altura, int idade) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    boolean findAd(String nextLine) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
   
 }

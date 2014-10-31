@@ -32,4 +32,8 @@ public class Jogador
 //--------------------------------------------------------------
    public int getIdade()           // comentario aqui
       { return idade; }
+
+    Object getNome() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
    }  // Final da Classe Jogador
